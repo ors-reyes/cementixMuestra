@@ -1,0 +1,8 @@
+.ImagenVariedad{
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(../../assets/images/variedad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}

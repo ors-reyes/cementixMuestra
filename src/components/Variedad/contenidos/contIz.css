@@ -1,0 +1,128 @@
+.contenedorVariedades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.contIz{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 0% 0%;
+    position: relative;
+    /* margin-top: 100px; */
+    overflow: hidden;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5),
+                inset 0px 3px rgba(255, 255, 255, 0.5)
+    ;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        height: 300px;
+        background-size: 80%;
+    }
+    @media screen and (min-width: 1350px) {
+        background-size: 45%;
+    }
+}
+.cont1{
+    background-image: url(../../assets/images/imgNegra.jpg);
+}
+.cont2{
+    background-image: url(../../assets/images/imgBlanca.jpg);
+}
+.cont3{
+    background-image: url(../../assets/images/imgImpermeable.jpg);
+}
+.cont4{
+    background-image: url(../../assets/images/imgResistencia.jpg);
+}
+.contIcon{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    @media screen and (min-width: 400px) {
+        flex-direction: row;
+    }
+    @media screen and (min-width: 768px) {
+        width: 40%;
+        height: 100%;
+        left: 0;
+    }
+    @media screen and (min-width: 1200px) {
+    }
+    .iconVa{
+        filter: drop-shadow(1px 1px 4px rgb(0, 0, 0));
+        width: 50%;
+        height: 75px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        @media screen and (min-width: 1024px){
+            height: 100px;
+        }
+    }
+    .icon1{
+        background-image: url(../../assets/images/icoNegraWhite.svg);
+    }
+    .icon2{
+        background-image: url(../../assets/images/icoBlancaWhite.svg);
+    }
+    .icon3{
+        background-image: url(../../assets/images/icoImpermeableWhite.svg);
+    }
+    .icon4{
+        background-image: url(../../assets/images/icoResistenciaWhite.svg);
+    }
+    .tituVa{
+        width: 50%;
+        /* border-radius: 5px; */
+        padding: 10px;
+        color: #fff;
+        filter: drop-shadow(1px 1px 4px black);
+        span{
+            font-weight: 800;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 1.5em;
+        }
+    }
+}
+.contList{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgb(230, 230, 230) 0%, rgb(230, 230, 230) 90%, rgba(230, 230, 230, 0) 100%);
+    @media screen and (min-width: 768px) {
+        width: 60%;
+        height: 100%;
+        right: 0;
+        background: linear-gradient(-90deg, rgb(230, 230, 230) 0%, rgb(230, 230, 230) 80%, rgba(230, 230, 230, 0) 100%);
+    }
+    @media screen and (min-width: 768px){
+        ul{
+            li{
+                line-height: 2.5;
+                text-shadow: 1px 1px 5px white;
+            }
+        }
+
+    }
+}
+
+.reverse{
+    transform: scale(-1);
+}

@@ -1,0 +1,49 @@
+.beneficios{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 992px) {
+        flex-direction: row;
+    }
+    .textBe{
+        text-transform: uppercase;
+    }
+}
+.bene{
+    width: 100%;
+    min-height: 400px;
+    border-top: 3px double white;
+    border-bottom: 3px double white;
+    /* box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+    h1{
+        font-family: var(--fuenteSecundaria);
+        font-size: 2.5em;
+        color: var(--colorPrimario);
+    }
+    p.tit{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .iconBene0,.iconBene1,.iconBene2{
+        margin-top: 16px;
+        width: 60%;
+        min-height: 75px;
+        background-repeat: no-repeat;background-size: contain;background-position: center;
+    }
+    .iconBene0{
+        /* background-image: url(../../assets/images/paquete.png); */
+    }
+    .iconBene1{
+        background-image: url(../../assets/images/ladrollis.svg);
+    }
+    .iconBene2{
+        background-image: url(../../assets/images/tiempoDinero.svg);
+    }
+}

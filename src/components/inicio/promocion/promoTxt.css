@@ -1,0 +1,40 @@
+.promocionTxt{
+    width: 100%;
+    background-image: url(../../assets/images/varieFnd.svg);
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        transform: translateY(100px);
+        opacity: 0;
+        animation: y100 0.5s forwards 1s;
+    }
+    ul {
+        list-style: circle;
+        padding: 20px;
+        li{
+            transform: translateY(-100px);
+            opacity: 0;
+            animation: y-100 0.5s forwards 1s;
+        }
+    }
+    fieldset {
+        transform: translateX(-100px);
+        opacity: 0;
+        animation: x-100 0.5s forwards 1s;
+        padding: 10px 10px 20px;
+        border-radius: 5px;
+        background-color: #ffffff4d;
+        legend {
+            padding: 10px;
+            font-weight: 900;
+        }
+    }
+    @media screen and (min-width: 992px) {
+        
+    }
+
+}

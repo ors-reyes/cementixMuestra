@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="LineaAbajo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 4500 750" style="enable-background:new 0 0 4500 750;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:transparent;}
+	.lineCuadra,.lineV,.lineH{fill:none;stroke:#00158e;
+		stroke-width: 20; 
+	stroke-dasharray: 4510;
+	stroke-dashoffset: 4510;
+		animation: mundoLine 0.5s forwards ease-in 0.0s;
+	}
+	@keyframes mundoLine{0%{stroke-dashoffset:-4510;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+
+</style>
+<rect x="-1" y="1" class="st0" width="4500" height="750"/>
+<rect x="4086.6" y="331.9" class="lineCuadra" width="88.3" height="88.3"/>
+<line class="lineV" x1="4130.8" y1="1" x2="4130.8" y2="751"/>
+<line class="lineH" x1="-1" y1="376" x2="4499" y2="376"/>
+</svg>

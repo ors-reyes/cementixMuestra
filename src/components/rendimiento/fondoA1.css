@@ -1,0 +1,28 @@
+:root{
+    --timeFondoA1:2s;
+}
+.pretxt{font-weight: 900;}
+.pre{animation: pre 1s forwards steps(18, end) calc(var(--timeFondoA1) + 0s);}
+@keyframes pre{0%{width: 0px;}100%{width: 950px;}}
+
+.rec100{animation: rec 1s forwards calc(var(--timeFondoA1) + 0.5s);}
+.rec75{animation: rec 1s forwards calc(var(--timeFondoA1) + 0.7s);}
+.rec50{animation: rec 1s forwards calc(var(--timeFondoA1) + 0.9s);}
+.rec25{animation: rec 1s forwards calc(var(--timeFondoA1) + 1.1s);}
+@keyframes rec{0%{width: 0px;}100%{width: 850px;}}
+
+
+
+
+.usoText{opacity: 0;
+    animation: opacity 1s forwards calc(var(--timeFondoA1) + 2.5s);}
+.text75{
+    animation: opacity 1s forwards calc(var(--timeFondoA1) + 2.5s),
+                text75 0.3s forwards calc(var(--timeFondoA1) + 3.0s)
+    ;}
+@keyframes opacity{0%{opacity:0;}100%{opacity:1;}}
+@keyframes text75{0%{font-weight: normal;font-size: 70px;}100%{font-weight: 900;font-size: 100px;}}
+
+.recAgua{animation: recAgua 1s forwards calc(var(--timeFondoA1) + 2s);}
+@keyframes recAgua{0%{width: 0px;}100%{width: 1000px;}}
+

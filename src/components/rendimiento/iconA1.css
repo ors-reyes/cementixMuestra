@@ -1,0 +1,108 @@
+.iconExtra{animation: iconExtra 1s forwards calc(var(--timeFondoA1) + 3s);}
+@keyframes iconExtra{0%{width: 0px;}100%{width: 1300px;}}
+
+.sombraMuralla{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;}
+.paredA1{fill-rule:evenodd;clip-rule:evenodd;fill:#E6E6E6;}
+.tendelA1{fill-rule:evenodd;clip-rule:evenodd;fill:#728B83;}
+.paredA2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+.tendelA2{fill-rule:evenodd;clip-rule:evenodd;fill:#143E30;}
+.paredA3{fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;}
+
+#alisada{
+    transform: translateX(-500px);
+    transform-origin: center;
+    animation: muralla 1s forwards;
+    opacity: 0;
+}
+#muralla{
+    transform: translateX(-500px);
+    transform-origin: center;
+    animation: muralla 1s forwards;
+    opacity: 0;
+}
+#colocacion{
+    transform: translateX(-500px);
+    transform-origin: center;
+    animation: muralla 1s forwards;
+    opacity: 0;
+}
+#cimientoImg{
+    transform: translateX(-500px);
+    transform-origin: center;
+    animation: muralla 1s forwards;
+    opacity: 0;
+}
+@keyframes muralla{0%{
+    opacity: 0;
+    transform: translateX(-500px);
+}100%{
+    opacity: 1;
+    transform: translateX(0px);
+}}
+.lineCorto{fill:none;stroke:#000000;stroke-width:10;
+    stroke-dasharray: 119;
+    stroke-dashoffset: 119;
+    animation: lineCorto 1s forwards 1s;
+}
+@keyframes lineCorto{0%{stroke-dashoffset:119px;}100%{stroke-dashoffset:0px;}}
+.lineLargo{fill:none;stroke:#000000;stroke-width:10;
+    stroke-dasharray: 1150;
+    stroke-dashoffset: 1150;
+    animation: lineLargo 1s forwards 1.5s;
+}
+@keyframes lineLargo{0%{stroke-dashoffset:1150px;}100%{stroke-dashoffset:0px;}}
+.txtA1{
+    font-size: 180px;
+    opacity: 0;
+    animation: opacity 1s forwards 2s;
+}
+
+.usoLine{fill: none;stroke: #fff;stroke-width: 10;stroke-linecap: round;stroke-dasharray: 980;stroke-dashoffset: 980;
+    animation: usoLine 1s forwards calc(var(--timeFondoA1) + 2s);}
+@keyframes usoLine{0%{stroke-dashoffset:980px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+.usoColor{fill: rgba(255, 255, 255, 0.6);opacity: 0;
+    animation: opacity 1s forwards calc(var(--timeFondoA1) + 2.5s);}
+
+.revoqueA1{
+    fill:#143E30;
+    opacity: 0;
+    animation: opacity 1s forwards calc(var(--timeFondoA1) + 2.8s);
+}
+.revoqueB2{
+    fill:black;
+    opacity: 0;
+    animation: opacity 1s forwards calc(var(--timeFondoA1) + 2.5s);
+
+}
+.colocacion1{fill:none;stroke:#231F20;stroke-width:0.9664;}
+.colocacion2{fill-rule:evenodd;clip-rule:evenodd;fill:#F2F0F3;}
+.colocacion3{fill-rule:evenodd;clip-rule:evenodd;fill:#E7E7E7;}
+.colocacion4{fill-rule:evenodd;clip-rule:evenodd;fill:#D8D8D8;}
+.colocacion5{fill-rule:evenodd;clip-rule:evenodd;fill:#989898;}
+.colocacion6{fill-rule:evenodd;clip-rule:evenodd;fill:#666666;}
+.colocacion7{fill-rule:evenodd;clip-rule:evenodd;fill:#CBCBCB;}
+.colocacion8{fill-rule:evenodd;clip-rule:evenodd;fill:#B2B2B2;}
+.colocacion9{fill-rule:evenodd;clip-rule:evenodd;fill:#143E30;}
+
+.cimieImg1{fill:#231F20;}
+.cimieImg2{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;}
+.cimieImg3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+.cimieImg4{fill-rule:evenodd;clip-rule:evenodd;fill:#989898;}
+.cimieImg5{fill-rule:evenodd;clip-rule:evenodd;fill:#CBCBCB;}
+.cimieImg6{fill-rule:evenodd;clip-rule:evenodd;fill:#B2B2B2;}
+.cimieImg7{fill-rule:evenodd;clip-rule:evenodd;fill:#436559;}
+.cimieImg8{fill-rule:evenodd;clip-rule:evenodd;fill:#E5E5E5;}
+.cimieImg9{fill-rule:evenodd;clip-rule:evenodd;fill:#728A82;}
+
+
+/*  */
+
+
+.alisada0{fill:none;stroke:#000000;stroke-width:10;}
+.alisada2{opacity:0.8;fill:#143E30;}
+.alisadaText{
+    font-size:160px;fill:#000;
+}
+.alisadaTextBlanco{
+    font-size:160px;fill:#FFFFFF;
+}
